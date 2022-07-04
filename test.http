@@ -7,12 +7,13 @@ Get http://localhost:3000/movies/search?year=2000
 Content-Type: application/json
 
 ###
-Post http://localhost:3000/movies
+POST  http://localhost:3000/movies
 Content-Type: application/json
 
 {
-  "title" : "Tenet",
-  "year" : 2020
+  "title" : "Test",
+  "year" : 2020,
+  "genres" : ["test"]
 }
 
 ###
